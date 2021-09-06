@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: lato;
+}
 .full-section{
     overflow: hidden;
 }
@@ -19,11 +23,16 @@
     left: 14%;
 }
 
+.about{
+    font-size: 70px;
+    font-family: Playball;
+}
+
 
 .item-1{
     font-size: 40px;
     color: white;
-    margin-top: 37%;
+    margin-top: 34%;
     font-family: open sans;
     margin-right: 69px;
 }
@@ -41,7 +50,7 @@
 
 /* main setion */
 .main{
-    background: rgb(235, 150, 164);
+    background: rgb(216, 179, 185);
     padding: 69px;
 }
 
@@ -90,8 +99,8 @@
 
 /* coming soon */
 .coming-soon{
-    background: rgb(235, 150, 164);
-    padding: 50px;
+    background: rgb(216, 179, 185);
+    padding: 110px;
 }
 
 .button-container{
@@ -151,36 +160,264 @@
 
 /* article section */
 .article-container{
-    display: flex;
-    justify-content: center !important;
-    align-items: center !important;
-    place-content: center;
+    display: grid;
+    grid-column-gap: 40px;
+    place-items: center;
+    margin: 0 auto;
+    grid-template-columns: auto auto;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 .article-image{
     width: 70%;
     height: 90%;
     border-radius: 6px;
-    justify-content: center;
-}
-
-.art1{
-    /* width: 30%; */
-    border: solid red;
-    /* height: 50%; */
     margin: 0 auto;
-
+    display: block;
+    position: relative;
+    left: 16%;
 }
-
-.art2{
-    border: solid red;
-    width: 50%;
-}
-
 .art-para{
     text-align: justify;
-    /* width: 100%; */
+    width: 80%;
     font-size: 20px;
     padding: 30px;
     margin-top: 30px;
 }
 
+.art1{
+    width: 100%;
+}
+
+.art2{
+    margin: 0 auto;
+    position: relative;
+    right: 5%;
+
+}
+
+.inner{
+    padding: 0px;
+    margin-left: 30px;
+    font-size: 30px;
+    text-align: justify;
+    font-family: Tangerine;
+    color: rgb(216, 179, 185);
+}
+
+/* slider section */
+
+.slide-main{
+    background: rgb(216, 179, 185);
+    color: white;
+    padding: 30px;
+}
+
+.slide-para{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: Playball;
+}
+
+.slide-container{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.slide-image1{
+    width: 100%;
+    margin: 5px;
+}
+
+.slide-image2{
+    width: 100%;
+    margin: 5px;
+}
+
+.slide-image3{
+    width: 100%;
+    margin: 5px;
+}
+
+.slide-image4{
+    width: 100%;
+    margin: 5px;
+}
+
+.inner-img1{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto !important;
+    margin: 10px;
+}
+.inner-img2{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto !important;
+    margin: 10px;
+
+}
+.inner-img3{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  
+}
+.inner-img4{
+    width: 100%;
+    height: 100%;
+}
+
+.arrow{
+    width: 40px;
+    color: white;
+    margin: 0 auto;
+    display: block;
+    margin-top: 0px;
+}
+
+/* product styling */
+.product-cotainer{
+    display: flex;
+    justify-content: center;
+}
+
+.pro-main{
+    padding: 80px;
+    height: 30%;
+}
+
+.pro-1{
+    width: 100%;
+    margin: 5px;
+}
+
+.pro-2{
+    width: 100%;
+    margin: 5px;
+}
+
+.pro-3{
+    width: 100%;
+    margin: 47px;
+    margin-top: 60px;
+}
+
+.proimg-1{
+    width: 100%;
+    height: 88%;
+}
+
+.proimg-2{
+    width: 100%;
+    height: 88%;
+}
+
+.pro-para{
+    line-height: 20px;
+    width: 260px;
+}
+
+.pro-head{
+    line-height: 60px;
+}
+
+.num{
+    line-height: 47px;
+}
+.btn-pro{
+    padding: 14px;
+    width: 70%;
+    text-align: center;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+/* sub section style */
+.sub-container{
+    display: flex;
+}
+
+.sub-inner2{
+    border-top: solid 7px rgb(216, 179, 185);
+    padding: 30px;
+    width: 60%;
+    margin: 60px;
+    margin-top: 100px;
+}
+
+.sub-inner1{
+    height: 80%;
+    width: 50%;
+}
+
+.sub-imag{
+    height: 600px !important;
+    width: 100%;
+}
+
+.sub-head{
+    font-size: 40px;
+    text-align: center;
+    font-family: Playball;
+}
+
+.sub-para{
+    text-align: center;
+    padding: 20px;
+}
+
+.para-con{
+    margin: 0 auto;
+    display: block;
+    width: 60%;
+}
+
+.fa{
+    font-size: 3vh !important;
+    margin: 5px;
+    font-weight: 600;
+}
+
+input{
+    padding: 10px;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 50px;
+    width: 40%;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+}
+
+.social-con{
+    display: flex;
+    justify-content: center; 
+}
+
+.btn-sub{
+    padding: 12px;
+    font-size: 12px;
+    width: 19%;
+    text-align: center;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
